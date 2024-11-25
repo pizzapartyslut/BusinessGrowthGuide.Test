@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BusinessGrowthGuide.test</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Growth Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Project</h1>
-    <script src="BGG.JS.code.ts"></script>
+  <div class="background-animation"></div>
+  <div class="container">
+    <div id="levelContainer">
+      <h1>Business Growth Guide</h1>
+      <div id="progressTracker"></div>
+      <div id="levelTitle"></div>
+      <div id="objectivesList"></div>
+      <button id="nextLevelBtn" class="next-level-btn" onclick="nextLevel()">Next Level</button>
+    </div>
+  </div>
+  <script src="BGG.JS.code.ts"></script>
 </body>
 </html>
